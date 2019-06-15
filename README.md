@@ -7,3 +7,5 @@ Anton E. Shikov, Alexander V. Predeus, Yury A. Barbitoff. Phenome-wide search fo
 `LSEA` - source code for the Locus Set Enrichment Analysis method
 
 `analysis_sciprts` - step-by-step pipeline of data analysis
+
+`data` - a directory with key files generated during data analysis
