@@ -1,0 +1,46 @@
+PLINK v1.90b6.5 64-bit (13 Sep 2018)
+Options in effect:
+  --bfile /home/antshikov/plink/1000G_20101123_v3_GIANT_chr1_23_minimacnamesifnotRS_CEU_MAF0.01
+  --clump /home/antshikov/LSEA/herit_35_cluster_test_full_for_plink.tsv
+  --clump-field P
+  --clump-kb 500
+  --clump-p1 5e-08
+  --clump-r2 0.1
+  --clump-snp-field SNP
+  --out /home/antshikov/LSEA/herit_35_cluster_test_full.clumped
+
+Hostname: cerbalabserver
+Working directory: /home/antshikov/LSEA
+Start time: Mon May  6 22:40:26 2019
+
+Random number seed: 1557182426
+128818 MB RAM detected; reserving 64409 MB for main workspace.
+9739729 variants loaded from .bim file.
+82 people (43 males, 39 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 82 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 179770 het. haploid genotypes present (see
+/home/antshikov/LSEA/herit_35_cluster_test_full.clumped.hh ); many commands
+treat these as missing.
+9739729 variants and 82 people pass filters and QC.
+Note: No phenotypes present.
+Warning: 'rs111163031' is missing from the main dataset, and is a top variant.
+Warning: 'rs111163033' is missing from the main dataset, and is a top variant.
+Warning: 'rs74547757' is missing from the main dataset, and is a top variant.
+Warning: 'rs76084994' is missing from the main dataset, and is a top variant.
+Warning: 'rs12715865' is missing from the main dataset, and is a top variant.
+Warning: 'rs76909980' is missing from the main dataset, and is a top variant.
+Warning: 'rs8176734' is missing from the main dataset, and is a top variant.
+Warning: 'rs8176726' is missing from the main dataset, and is a top variant.
+Warning: 'rs61585353' is missing from the main dataset, and is a top variant.
+Warning: 'rs12629459' is missing from the main dataset, and is a top variant.
+Warning: 'rs79189160' is missing from the main dataset, and is a top variant.
+Warning: 'rs78840093' is missing from the main dataset, and is a top variant.
+Warning: 'rs56806422' is missing from the main dataset, and is a top variant.
+Warning: 'rs117237718' is missing from the main dataset, and is a top variant.
+--clump: 20 clumps formed from 454 top variants.
+Results written to
+/home/antshikov/LSEA/herit_35_cluster_test_full.clumped.clumped .
+
+End time: Mon May  6 22:40:30 2019
