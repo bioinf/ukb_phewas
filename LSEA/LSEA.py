@@ -19,6 +19,8 @@ import sys
 import argparse
 import subprocess
 
+script_path = sys.path[0]
+
 def estimate(pv, m=None, verbose=False, lowmem=False, pi0=None):
     """
     Estimates q-values from p-values
@@ -105,7 +107,7 @@ def estimate(pv, m=None, verbose=False, lowmem=False, pi0=None):
     return qv
 
 def make_vcf(SNP_dict,name):
-    with open(os.getcwd() + "/"+name.split('.')[0] +".vcf" ,"w",newline='') as csvfile:
+    with open(os.getcwd() + "/"+name.split('/')[-1].split('.')[0] +".vcf" ,"w",newline='') as csvfile:
         my_writer = csv.writer(csvfile, delimiter='\t')
         for key in SNP_dict:
             row_to_write = []
@@ -156,6 +158,7 @@ def get_check(path, HLA, SNP_names_list,clumpig_universe):
                                 quiery[row[2]].append(snp)  
                                 qverse[row[2]][1].append(snp)
                 except:
+                      print('Bugged')
                       pass                               
 
     for index in qverse.keys():
@@ -419,14 +422,14 @@ def create_clumpverse(flag, chr_snp_dict, coord_chr_snp_dict,all_snps,cl_dir='no
 
 def make_clumps(input_dict,file_name, plink_dir, bfile):
     print('Calculating independant loci with PLINK')
-    with open(os.getcwd()+ "/"+file_name.split('.')[0]+'_for_plink.tsv','w', newline='') as csvfile:
+    with open(os.getcwd()+ "/"+file_name.split('/')[-1].split('.')[0]+'_for_plink.tsv','w', newline='') as csvfile:
         my_writer = csv.writer(csvfile, delimiter='\t')
         init_row = ["SNP","Chr","Pos","P"]
         my_writer.writerow(init_row)
         for snp in input_dict:
             row = [snp] + input_dict[snp][0:2]+[input_dict[snp][4]]
             my_writer.writerow(row)
-        snp_cmd = subprocess.call('{0}/plink --bfile {1} --clump {2} --clump-field P --clump-p1 5e-08 --clump-r2 0.1 --clump-snp-field SNP --clump-kb 500 --out {3} --silent 2> {4}'.format(plink_dir,plink_dir +'/'+ bfile,os.getcwd()+ "/"+file_name.split('.')[0]+'_for_plink.tsv',os.getcwd()+ "/"+file_name.split('.')[0]+'.clumped', 'PLINK_clumping.log'),shell=True)
+        snp_cmd = subprocess.call('{0}/plink --bfile {1} --clump {2} --clump-field P --clump-p1 1e-04 --clump-r2 0.1 --clump-snp-field SNP --clump-kb 500 --out {3} --silent 2> {4}'.format(plink_dir,bfile,os.getcwd()+ "/"+file_name.split('/')[-1].split('.')[0]+'_for_plink.tsv',os.getcwd()+ "/"+file_name.split('/')[-1].split('.')[0]+'.clumped', 'PLINK_clumping.log'),shell=True)
 
 def annotate_vcf(file_name, snpeff, genome):
     print('Annotating file with snpEff')
@@ -473,12 +476,12 @@ if __name__ == '__main__':
     SNP_names_list = dict()
     input_dict=defaultdict(list)
 
-    with open(os.getcwd()+'/precompiled_data/all_human_genes.txt',newline='') as csvfile:
+    with open(script_path+'/precompiled_data/all_human_genes.txt',newline='') as csvfile:
         my_reader = csv.reader(csvfile, delimiter='\t')
         for row in my_reader:
             if len(row)==1:
                 refset.add(row[0]) 
-    with open(os.getcwd()+'/precompiled_data/all_sets.gmt',newline='') as csvfile:
+    with open(script_path+'/precompiled_data/all_sets.gmt',newline='') as csvfile:
         my_reader = csv.reader(csvfile, delimiter='\t')
         next(my_reader)
         for row in my_reader:
@@ -487,7 +490,7 @@ if __name__ == '__main__':
                 refset.add(row[el])  
     comp_names = list([gene for gene in refset if "-" in gene])   
 
-    with open(os.getcwd()+'/precompiled_data/all_sets.gmt',newline='') as csvfile:
+    with open(script_path+'/precompiled_data/all_sets.gmt',newline='') as csvfile:
        my_reader = csv.reader(csvfile, delimiter='\t')
        next(my_reader)
        for row in my_reader:
@@ -496,7 +499,7 @@ if __name__ == '__main__':
                 genesetdb[row[0]].append(row[el])
 
     if p:
-        with open(os.getcwd()+'/precompiled_data/clumpverse_no_hla.tsv', 'r', newline='') as csvfile:
+        with open(script_path+'/precompiled_data/clumpverse_no_hla.tsv', 'r', newline='') as csvfile:
             my_reader = csv.reader(csvfile, delimiter='\t')
             for row in my_reader:
                 clumpig_universe[row[0]].append(row[1])
@@ -505,22 +508,22 @@ if __name__ == '__main__':
                 clumpig_universe[row[0]].append(row[4])
                 clumpig_universe[row[0]].append(row[5])
 
-        with open(os.getcwd()+'/precompiled_data/clumpsetdb_filtered.tsv',newline='') as csvfile:
+        with open(script_path+'/precompiled_data/clumpsetdb_filtered.tsv',newline='') as csvfile:
             my_reader = csv.reader(csvfile, delimiter='\t')
             for row in my_reader:
                 clumpsetbd[row[0]].extend(row[1].split(","))    
 
 #    if not cf and not fa and not va:
-#        with open(af,'r', newline='') as csvfile:
-#            my_reader = csv.reader(csvfile, delimiter='\t')
-#            for row in my_reader:
-#                all_snps.add(row[2])
-#                chr_snp_dict[row[0]][row[2]]=row[1]
-#                coord_chr_snp_dict[row[0]][row[1]]=row[2]
-#                coord_gene_dict[row[2]].append(row[0]+"_"+row[1])
-#                coord_gene_dict[row[2]].append(str(0))
-#                if not vf:
-#                    input_dict[row[2]]=row[0:2]+row[3:]
+        with open(af,'r', newline='') as csvfile:
+            my_reader = csv.reader(csvfile, delimiter='\t')
+            for row in my_reader:
+                all_snps.add(row[2])
+                chr_snp_dict[row[0]][row[2]]=row[1]
+                coord_chr_snp_dict[row[0]][row[1]]=row[2]
+                coord_gene_dict[row[2]].append(row[0]+"_"+row[1])
+                coord_gene_dict[row[2]].append(str(0))
+                if not vf:
+                    input_dict[row[2]]=row[0:2]+row[3:]
 
     if vf:
         with open(vf,'r', newline='') as csvfile:
@@ -553,8 +556,10 @@ if __name__ == '__main__':
                                     coord_gene_dict[row[2]].append(el)
                                     coord_gene_dict[row[2]][1] = str(int(coord_gene_dict[row[2]][1])+1) 
     if not vf and not pl and p:
+        print('Will generate all temporary and output files in this directory')
         make_vcf(input_dict,af)
-        annotate_vcf(af.split('.')[0]+".vcf", sn, g)
+        annotate_vcf(af.split('/')[-1].split('.')[0]+".vcf", sn, g)
+#        print(input_dict)
         make_clumps(input_dict,af,pld,bf)
         with open(af.split('.')[0]+"_annotated.vcf",'r', newline='') as csvfile:
             my_reader = csv.reader(csvfile, delimiter='\t')
@@ -586,10 +591,12 @@ if __name__ == '__main__':
                                     coord_gene_dict[row[2]].append(el)
                                     coord_gene_dict[row[2]][1] = str(int(coord_gene_dict[row[2]][1])+1)
 
-        df1 = GSEA(clumpig_universe,get_check(os.getcwd()+"/"+af.split('.')[0]+'.clumped.clumped', 'no', SNP_names_list,clumpig_universe),clumpsetbd, genesetdb, coord_gene_dict,'yes')
+        df1 = GSEA(clumpig_universe,get_check(os.getcwd()+"/"+af.split('/')[-1].split('.')[0]+'.clumped.clumped', 'no', SNP_names_list,clumpig_universe),clumpsetbd, genesetdb, coord_gene_dict,'yes')
         if len(df1)!=0:
             df1.to_csv(af.split('.')[0]+'.enrich.tsv',sep='\t', index=False)
             rename_cmd =subprocess.call("var=\"gene_set\tp-value\tq-value\tenrich_description\";  sed -i \"1s/.*/$var/\" {}".format(af.split('.')[0]+'.enrich.tsv'),shell=True)
+        else:
+            print('No significant hits found, so no output will be created')
     if cu:
         if cld:
             clumpig_universe = create_clumpverse('clumped.clumped', chr_snp_dict, coord_chr_snp_dict,all_snps,cl_dir=cld)
