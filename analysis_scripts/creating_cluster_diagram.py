@@ -14,16 +14,19 @@ Clust_total = Counter()
 Clust_phen_ratio = Counter()
 
 
+#То, что получается в результате кластеризации(cluster_decoder.tsv)
 with open('C:\\Downloads\\herit_for_clustering_jaccard.tsv',newline='') as csvfile:
     my_reader = csv.reader(csvfile, delimiter='\t')
     next(my_reader)
     for row in my_reader:
         Clust_dict[row[2]].append(row[1])
-      
+  
+
+#Аутпут
 csvwfile = open('C:\\Downloads\\Cluster_diagram_jaccard.tsv', 'w',newline='')
 my_writer = csv.writer(csvwfile, delimiter='\t')
 
-
+#То, что сохраняется из Манхеттена кластеров
 with open('C:\\Downloads\\herit_clust_diags_sort_jaccard.tsv',newline='') as csvfile:
     my_reader = csv.reader(csvfile, delimiter='\t')
     for row in my_reader:

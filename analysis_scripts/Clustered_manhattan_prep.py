@@ -9,16 +9,19 @@ from collections import defaultdict
 
 clust_dict = defaultdict(list)
 
-
+# Название аутпута
 csvwfile = open('C:\\Downloads\\herit_Clustered_mahattan_jaccard.tsv', 'w',newline='')
 my_writer = csv.writer(csvwfile, delimiter='\t')
 
+
+# То, что получилось после кластеризации
 with open('C:\\Downloads\\herit_for_clustering_jaccard.tsv',newline='') as csvfile:
     my_reader = csv.reader(csvfile, delimiter='\t')
     next(my_reader)
     for row in my_reader:
         clust_dict[row[2]].append(row[1])
 
+        
 with open('C:\\Downloads\\herit_Manhattan_09_no_0.tsv',newline='') as csvfile:
     my_reader = csv.reader(csvfile, delimiter='\t')
     for row in my_reader:

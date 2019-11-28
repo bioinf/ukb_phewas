@@ -1,4 +1,4 @@
-library(plotly)
+#library(plotly)
 library(cluster)
 library(dplyr)
 options(scipen = 999)
@@ -7,11 +7,12 @@ names_vec = as.vector(read.csv('herit_annotated_names_for_map.csv', header = FAL
 names_vec = as.vector(sapply(names_vec, as.character, simplify = TRUE))
 colnames(heatmap_file) = names_vec
 rownames(heatmap_file) = names_vec
+
+#Добавить модуль или другие преобразования
 heatmap_file = 1-heatmap_file
 clusters <- hclust(as.dist(as.matrix(heatmap_file)), method = 'average')
-plot(clusters, labels=FALSE)
-clusterCut <- cutree(clusters, 307)
 
+plot(clusters, labels=FALSE)
 s=NULL
 for(i in 10:500){
   k=cutree(clusters,i)
@@ -19,6 +20,8 @@ for(i in 10:500){
 }
 which.max(s)
 
+#Сюда добавить значчение максимального числа 
+clusterCut <- cutree(clusters, 307)
 
 names_frame <- data.frame(keyName=names(clusterCut), value=clusterCut, row.names=NULL) %>% arrange(value)
 sorted_heatmap <- heatmap_file[as.vector(names_frame$keyName), as.vector(names_frame$keyName)]
@@ -26,22 +29,20 @@ sorted_heatmap <- heatmap_file[as.vector(names_frame$keyName), as.vector(names_f
 write.table(names_frame, file = "herit_for_clustering_jaccard.tsv", quote=FALSE, sep='\t')
 write.table(heatmap_file, file = "Herit_jaccard.tsv", quote=FALSE, sep='\t')
 
-colfunc <- colorRampPalette(c("ForestGreen",'lightGreen' , 'white'))
 heatmap_matrix = matrix(sorted_heatmap)
-p <- plot_ly(z = heatmap_matrix, x = colnames(sorted_heatmap), y = rownames(sorted_heatmap),colors = colfunc(50), type = "heatmap",  reversescale =F)
-htmlwidgets::saveWidget(as_widget(p), file = "herit_jaccar.html")
+
 
 dend <- as.dendrogram(clusters)
 dend  = reorder(dend, wts = order(match(names_frame$keyName, rownames(heatmap_file))))
 ord_dend <- rev(reorder(dend, agglo.FUN=sum, 543:1))
 labels(ord_dend)
-plot(ord_dend,labels=FALSE)
+#plot(ord_dend,labels=FALSE)
 
 library(ape)
 
-plot(as.phylo(as.hclust(as.dendrogram(ord_dend))), type = "phylogram", show.tip.label = F,
-     edge.color = "black", edge.width = 0.071, edge.lty = 1,
-     tip.color = "black")
+#plot(as.phylo(as.hclust(as.dendrogram(ord_dend))), type = "phylogram", show.tip.label = F,
+#     edge.color = "black", edge.width = 0.071, edge.lty = 1,
+#     tip.color = "black")
 
 library(lattice)
 drawCoolHM = function(df){
@@ -60,19 +61,21 @@ drawCoolHM = function(df){
 
 mypal = colorRampPalette(c('#FF4343','#FAFAFA'))
 jet = mypal(100)
-
-
-drawCoolHM(as.matrix(check))
 check <- heatmap_file[as.vector(labels(ord_dend)),as.vector(labels(ord_dend))]
+drawCoolHM(as.matrix(check))
+
+
 
 occur =vector()
 for (cluster in unique(names_frame$value)){
   occur <- c(occur,sum(names_frame$value==cluster))
 }
 
-
-
 cluster_names_plot <- data.frame(cluster = unique(names_frame$value),occur =occur,fac=1)
+
+
+
+
 
 names_frame35 <- data.frame(keyName=names(clusterCut), value=clusterCut, row.names=NULL) %>% arrange(value)
 sorted_heatmap35 <- jac35[c("I80",  "20002_1094", "6152_5", "I26", "20002_1093","6152_7"), c("I80",  "20002_1094", "6152_5", "I26", "20002_1093","6152_7")]
