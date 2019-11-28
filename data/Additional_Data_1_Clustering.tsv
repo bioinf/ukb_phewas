@@ -1,0 +1,544 @@
+cluster	description	SNP_percentage	count
+1	Pulse rate, automated reading	1	1
+2	Duration of light DIY	0.002357795461244	3
+2	Pulse rate	0.997642204538756	3
+2	Maximum heart rate during fitness test	0.030356616563513	3
+3	Time spent watching television (TV)	0.138630999213218	9
+3	Age at first live birth	0.025098347757671	9
+3	Age at last live birth	0.016050354051928	9
+3	Qualifications: College or University degree	0.855546813532651	9
+3	Qualifications: None of the above	0.249881982690795	9
+3	Qualifications: A levels/AS levels or equivalent	0.197403619197482	9
+3	Qualifications: O levels/GCSEs or equivalent	0.023996852871755	9
+3	Qualifications: Other professional qualifications eg: nursing, teaching	0.007474429583006	9
+3	Age completed full time education	0.071597167584579	9
+4	Time spent using computer	1	1
+5	Time spent driving	0.381818181818182	3
+5	Transport type for commuting to job workplace: Car/motor vehicle	0.181818181818182	3
+5	Types of transport used (excluding work): None of the above	0.436363636363636	3
+6	Drive faster than motorway speed limit	1	1
+7	Sleep duration	0.678958785249458	2
+7	Sleeplessness / insomnia	0.337310195227766	2
+8	Getting up in morning	0.302392927907331	2
+8	Morning/evening person (chronotype)	0.915256820606615	2
+9	Snoring	1	1
+10	Daytime dozing / sleeping (narcolepsy)	1	1
+11	Current tobacco smoking	0.777327935222672	3
+11	Townsend deprivation index at recruitment	0.05668016194332	3
+11	Smoking status: Current	0.631578947368421	3
+12	Past tobacco smoking	0.847426470588235	5
+12	Smoking status: Previous	0.333333333333333	5
+12	Ever smoked	0.585171568627451	5
+12	Tobacco smoking: Ex-smoker	0.05453431372549	5
+12	Light smokers, at least 100 smokes in lifetime	0.086397058823529	5
+13	Number of self-reported cancers	0.464609800362976	4
+13	Cancer code, self-reported: lung cancer	0.362976406533575	4
+13	Cancer diagnosed by doctor	0.152450090744102	4
+13	Diagnoses - main ICD10: C50 Malignant neoplasm of breast	0.261343012704174	4
+14	Number of self-reported non-cancer illnesses	0.243027210884354	8
+14	Number of treatments/medications taken	0.334013605442177	8
+14	Overall health rating	0.428061224489796	8
+14	Long-standing illness, disability or infirmity	0.297278911564626	8
+14	Other serious medical condition/disability diagnosed by doctor	0.08265306122449	8
+14	Taking other prescription medications	0.355612244897959	8
+14	Current employment status: Unable to work because of sickness or disability	0.000170068027211	8
+14	Usual walking pace	0.103401360544218	8
+15	Number of operations, self-reported	1	2
+15	Had other major operations	0.333333333333333	2
+16	Alcohol intake frequency.	1	2
+16	Alcohol drinker status: Never	0.000984251968504	2
+17	Average weekly red wine intake	0.272727272727273	3
+17	Average weekly beer plus cider intake	0.279220779220779	3
+17	Alcohol usually taken with meals	0.478354978354978	3
+18	Average weekly champagne plus white wine intake	1	1
+19	Alcohol intake versus 10 years previously	1	1
+20	Comparative body size at age 10	0.097652596212127	35
+20	Seen a psychiatrist for nerves, anxiety, tension or depression	0.005103377058749	35
+20	Body mass index (BMI)	0.185472586184964	35
+20	Body fat percentage	0.131991888474	35
+20	Whole body fat mass	0.158451626420827	35
+20	Whole body fat-free mass	0.361786032311411	35
+20	Whole body water mass	0.361097600215509	35
+20	Basal metabolic rate	0.327820887927745	35
+20	Impedance of whole body	0.278268742937959	35
+20	Impedance of leg (right)	0.241437625807224	35
+20	Impedance of leg (left)	0.241534904255558	35
+20	Impedance of arm (right)	0.227272387138293	35
+20	Impedance of arm (left)	0.228649251330096	35
+20	Leg fat percentage (right)	0.12273546996715	35
+20	Leg fat mass (right)	0.16136249691328	35
+20	Leg fat-free mass (right)	0.300403331412708	35
+20	Leg predicted mass (right)	0.301570672792715	35
+20	Leg fat percentage (left)	0.118889229779178	35
+20	Leg fat mass (left)	0.159723729206732	35
+20	Leg fat-free mass (left)	0.294641454088314	35
+20	Leg predicted mass (left)	0.292763231739713	35
+20	Arm fat percentage (right)	0.126574227197558	35
+20	Arm fat mass (right)	0.157059796313895	35
+20	Arm fat-free mass (right)	0.295329886184215	35
+20	Arm predicted mass (right)	0.294416965361389	35
+20	Arm fat percentage (left)	0.126387153258454	35
+20	Arm fat mass (left)	0.155226471710679	35
+20	Arm fat-free mass (left)	0.290518344470468	35
+20	Arm predicted mass (left)	0.290750316154957	35
+20	Trunk fat percentage	0.126357221428197	35
+20	Trunk fat mass	0.159020331195702	35
+20	Trunk fat-free mass	0.384384564155137	35
+20	Trunk predicted mass	0.382491375891407	35
+20	Waist circumference	0.107492685408981	35
+20	Hip circumference	0.168905318137941	35
+21	Comparative height size at age 10	0.304495236621933	12
+21	Sitting height	0.502636294491498	12
+21	Forced expiratory volume in 1-second (FEV1), Best measure	0.086533627257609	12
+21	Forced vital capacity (FVC), Best measure	0.108333011047943	12
+21	Forced expiratory volume in 1-second (FEV1), predicted	0.028967010867463	12
+21	Forced expiratory volume in 1-second (FEV1), predicted percentage	0.042580345747767	12
+21	Forced vital capacity (FVC)	0.129101081589769	12
+21	Forced expiratory volume in 1-second (FEV1)	0.099444379987366	12
+21	Peak expiratory flow (PEF)	0.047627334957652	12
+21	Ever highly irritable/argumentative for 2 days	6.44570780317387E-06	12
+21	Hand grip strength (right)	0.047530649340604	12
+21	Standing height	0.786408580526228	12
+22	Handedness (chirality/laterality): Left-handed	1	1
+23	Adopted as a child	1	1
+24	Maternal smoking around birth	0.793939393939394	2
+24	Illnesses of mother: Chronic bronchitis/emphysema	0.206060606060606	2
+25	Father still alive	0.125	5
+25	Mother still alive	0.04375	5
+25	Had menopause	0.616666666666667	5
+25	Age started oral contraceptive pill	0.033333333333333	5
+25	Ever used hormone-replacement therapy (HRT)	0.183333333333333	5
+26	Father's age at death	1	1
+27	Mood swings	0.074632072386351	19
+27	Miserableness	0.052174861005124	19
+27	Irritability	0.084857734656056	19
+27	Sensitivity / hurt feelings	0.063730513463425	19
+27	Fed-up feelings	0.072975035430067	19
+27	Nervous feelings	0.101188269922599	19
+27	Worrier / anxious feelings	0.092881282023329	19
+27	Tense / 'highly strung'	0.007260438242669	19
+27	Treatment/medication code: paracetamol	0.054071732257713	19
+27	Illnesses of father: Diabetes	0.006344707293143	19
+27	Neuroticism score	0.142963043715251	19
+27	Loneliness, isolation	0.002703586612886	19
+27	Guilty feelings	0.008764853374032	19
+27	Frequency of depressed mood in last 2 weeks	0.004120789272866	19
+27	Frequency of unenthusiasm / disinterest in last 2 weeks	0.01061811839093	19
+27	Frequency of tenseness / restlessness in last 2 weeks	0.054202550964788	19
+27	Frequency of tiredness / lethargy in last 2 weeks	0.013801373596424	19
+27	Seen doctor (GP) for nerves, anxiety, tension or depression	0.032661070533086	19
+27	Weight	0.730578872778807	19
+28	Worry too long after embarrassment	1	1
+29	Cancer code, self-reported: breast cancer	1	1
+30	Cancer code, self-reported: small intestine/small bowel cancer	0.485623003194888	3
+30	Diagnoses - main ICD10: C61 Malignant neoplasm of prostate	0.507987220447284	3
+30	Diagnoses - main ICD10: Z46 Fitting and adjustment of other devices	0.007987220447284	3
+31	Cancer code, self-reported: prostate cancer	1	1
+32	Cancer code, self-reported: malignant melanoma	0.30812324929972	2
+32	Diagnoses - main ICD10: C44 Other malignant neoplasms of skin	0.910364145658263	2
+33	Cancer code, self-reported: basal cell carcinoma	1	1
+34	Cancer code, self-reported: squamous cell carcinoma	0.002131963045974	17
+34	Non-cancer illness code, self-reported: atrial fibrillation	0.02372492210135	17
+34	Treatment/medication code: coversyl 2mg tablet	0.018805007379872	17
+34	Treatment/medication code: tranexamic acid	0.001858634450336	17
+34	Treatment/medication code: senna	0.001421308697316	17
+34	Treatment/medication code: atenolol	0.002514623079867	17
+34	Treatment/medication code: doxazosin	0.00021866287651	17
+34	Treatment/medication code: testogel 50mg gel 5g sachet	0.020335647515443	17
+34	Vascular/heart problems diagnosed by doctor: Heart attack	0.017875690154704	17
+34	Vascular/heart problems diagnosed by doctor: High blood pressure	0.545837205488438	17
+34	Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones: Cholesterol lowering medication	0.080194609960094	17
+34	Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones: None of the above	0.030886131307057	17
+34	Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones: Blood pressure medication	0.108730115344667	17
+34	Medication for pain relief, constipation, heartburn: None of the above	0.239654512655114	17
+34	Medication for cholesterol, blood pressure or diabetes: Cholesterol lowering medication	0.09380637402285	17
+34	Medication for cholesterol, blood pressure or diabetes: None of the above	0.050292461597332	17
+34	Medication for cholesterol, blood pressure or diabetes: Blood pressure medication	0.082545235882578	17
+35	Non-cancer illness code, self-reported: hypertension	0.806188225182638	9
+35	Non-cancer illness code, self-reported: angina	0.031113021057155	9
+35	Treatment/medication code: dothiepin	0.039449935539321	9
+35	Treatment/medication code: adcal-d3 1.5g/10micrograms chewable tablet	0.000171895143962	9
+35	Vascular/heart problems diagnosed by doctor: None of the above	0.70159003008165	9
+35	Vascular/heart problems diagnosed by doctor: Angina	0.031542758917061	9
+35	Diagnoses - main ICD10: I20 Angina pectoris	0.006360120326601	9
+35	Diagnoses - main ICD10: I21 Acute myocardial infarction	0.008594757198109	9
+35	Diagnoses - main ICD10: I25 Chronic ischaemic heart disease	0.045122475290073	9
+36	Non-cancer illness code, self-reported: heart attack/myocardial infarction	0.547904191616767	3
+36	Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor: Blood clot in the lung	0.434131736526946	3
+36	Diagnoses - main ICD10: I26 Pulmonary embolism	0.223053892215569	3
+37	Non-cancer illness code, self-reported: pulmonary embolism +/- dvt	0.467948717948718	3
+37	Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor: Blood clot in the leg (DVT)	0.9375	3
+37	Diagnoses - main ICD10: I80 Phlebitis and thrombophlebitis	0.512820512820513	3
+38	Non-cancer illness code, self-reported: deep venous thrombosis (dvt)	0.043899948953548	6
+38	Treatment/medication code: simvastatin	0.078976154014439	6
+38	Treatment/medication code: symbicort 100/6 turbohaler	0.000875082038941	6
+38	Doctor diagnosed asthma	0.156056296944505	6
+38	Wheeze or whistling in the chest in last year	0.206519361190112	6
+38	Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor: Asthma	0.841318456938671	6
+39	Non-cancer illness code, self-reported: asthma	0.995863768371029	3
+39	Treatment/medication code: omacor 1g capsule	0.003080172489659	3
+39	Diagnoses - main ICD10: J44 Other chronic obstructive pulmonary disease	0.001056059139312	3
+40	Non-cancer illness code, self-reported: chronic obstructive airways disease/copd	1	1
+41	Non-cancer illness code, self-reported: interstitial lung disease	0.989304812834225	2
+41	Diagnoses - main ICD10: G47 Sleep disorders	0.010695187165775	2
+42	Non-cancer illness code, self-reported: sleep apnoea	0.039823008849558	2
+42	Diagnoses - main ICD10: K80 Cholelithiasis	0.960176991150442	2
+43	Non-cancer illness code, self-reported: cholelithiasis/gall stones	0.989583333333333	2
+43	Diagnoses - main ICD10: N20 Calculus of kidney and ureter	0.010416666666667	2
+44	Non-cancer illness code, self-reported: kidney stone/ureter stone/bladder stone	1	1
+45	Non-cancer illness code, self-reported: bladder problem (not cancer)	0.000171703296703	6
+45	Non-cancer illness code, self-reported: diabetes	0.415178571428571	6
+45	Treatment/medication code: quinine	0.006868131868132	6
+45	Treatment/medication code: thyroxine product	0.413804945054945	6
+45	Diabetes diagnosed by doctor	0.679429945054945	6
+45	Eye problems/disorders: None of the above	0.015281593406593	6
+46	Non-cancer illness code, self-reported: type 2 diabetes	0.517241379310345	2
+46	Treatment/medication code: gliclazide	0.96551724137931	2
+47	Non-cancer illness code, self-reported: hyperthyroidism/thyrotoxicosis	0.906634644250976	3
+47	Treatment/medication code: liothyronine	0.083258280796558	3
+47	Treatment/medication code: cipralex 5mg tablet	0.010107074952467	3
+48	Non-cancer illness code, self-reported: hypothyroidism/myxoedema	1	1
+49	Non-cancer illness code, self-reported: eye/eyelid problem	1	1
+50	Non-cancer illness code, self-reported: parkinsons disease	0.084870848708487	2
+50	Pain type(s) experienced in last month: None of the above	0.915129151291513	2
+51	Non-cancer illness code, self-reported: migraine	0.384126984126984	3
+51	Treatment/medication code: letrozole	0.196825396825397	3
+51	Eye problems/disorders: Glaucoma	0.419047619047619	3
+52	Non-cancer illness code, self-reported: glaucoma	1	1
+53	Non-cancer illness code, self-reported: retinal detachment	0.022988505747127	2
+53	Diagnoses - main ICD10: F31 Bipolar affective disorder	0.977011494252874	2
+54	Non-cancer illness code, self-reported: mania/bipolar disorder/manic depression	1	1
+55	Non-cancer illness code, self-reported: bone disorder	1	1
+56	Non-cancer illness code, self-reported: back problem	1	1
+57	Non-cancer illness code, self-reported: joint disorder	0.108695652173913	3
+57	Treatment/medication code: citalopram	0.021739130434783	3
+57	Treatment/medication code: salmeterol+fluticasone propionate	0.869565217391304	3
+58	Non-cancer illness code, self-reported: osteoporosis	1	1
+59	Non-cancer illness code, self-reported: ankylosing spondylitis	1	1
+60	Non-cancer illness code, self-reported: iron deficiency anaemia	0.001305483028721	2
+60	Treatment/medication code: hydroxocobalamin product	0.998694516971279	2
+61	Non-cancer illness code, self-reported: pernicious anaemia	1	1
+62	Non-cancer illness code, self-reported: ovarian cyst or cysts	1	1
+63	Non-cancer illness code, self-reported: uterine fibroids	0.818181818181818	2
+63	Diagnoses - main ICD10: N81 Female genital prolapse	0.264462809917355	2
+64	Non-cancer illness code, self-reported: vaginal prolapse/uterine prolapse	0.00026507620941	4
+64	Doctor diagnosed hayfever or allergic rhinitis	0.080583167660703	4
+64	Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor: None of the above	0.836713055003314	4
+64	Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor: Hayfever, allergic rhinitis or eczema	0.69012591119947	4
+65	Non-cancer illness code, self-reported: hayfever/allergic rhinitis	0.868085106382979	2
+65	Diagnoses - main ICD10: N40 Hyperplasia of prostate	0.131914893617021	2
+66	Non-cancer illness code, self-reported: enlarged prostate	1	1
+67	Non-cancer illness code, self-reported: muscle or soft tissue injuries	0.002262443438914	2
+67	Diagnoses - main ICD10: J33 Nasal polyp	0.997737556561086	2
+68	Non-cancer illness code, self-reported: nasal polyps	1	1
+69	Non-cancer illness code, self-reported: hypopituitarism	1	1
+70	Non-cancer illness code, self-reported: tuberculosis (tb)	1	1
+71	Non-cancer illness code, self-reported: anaemia	1	1
+72	Non-cancer illness code, self-reported: hereditary/genetic haematological disorder	1	1
+73	Non-cancer illness code, self-reported: eczema/dermatitis	0.140322580645161	2
+73	Non-cancer illness code, self-reported: high cholesterol	0.859677419354839	2
+74	Non-cancer illness code, self-reported: psoriasis	1	1
+75	Non-cancer illness code, self-reported: blistering/desquamating skin disorder	1	1
+76	Non-cancer illness code, self-reported: malabsorption/coeliac disease	0.99795111259351	2
+76	Diagnoses - main ICD10: K57 Diverticular disease of intestine	0.00204888740649	2
+77	Non-cancer illness code, self-reported: diverticular disease/diverticulitis	0.514851485148515	2
+77	Diagnoses - main ICD10: K50 Crohn's disease [regional enteritis]	0.485148514851485	2
+78	Non-cancer illness code, self-reported: crohns disease	0.11138014527845	3
+78	Treatment/medication code: lisinopril+hydrochlorothiazide 10mg/12.5mg tablet	0.394673123486683	3
+78	Diagnoses - main ICD10: K51 Ulcerative colitis	0.497982243744956	3
+79	Non-cancer illness code, self-reported: ulcerative colitis	1	1
+80	Non-cancer illness code, self-reported: rheumatoid arthritis	1	1
+81	Non-cancer illness code, self-reported: osteoarthritis	0.102409638554217	2
+81	Treatment/medication code: prednisolone	0.897590361445783	2
+82	Non-cancer illness code, self-reported: gout	0.794137931034483	4
+82	Treatment/medication code: mometasone	0.004137931034483	4
+82	Treatment/medication code: chondroitin product	0.000344827586207	4
+82	Diagnoses - main ICD10: I48 Atrial fibrillation and flutter	0.201379310344828	4
+83	Non-cancer illness code, self-reported: psoriatic arthropathy	1	1
+84	Non-cancer illness code, self-reported: chronic fatigue syndrome	1	1
+85	Non-cancer illness code, self-reported: varicose veins	1	1
+86	Non-cancer illness code, self-reported: pneumothorax	1	1
+87	Non-cancer illness code, self-reported: haemorrhoids / piles	1	1
+88	Non-cancer illness code, self-reported: polio / poliomyelitis	1	1
+89	Non-cancer illness code, self-reported: arthritis (nos)	1	1
+90	Non-cancer illness code, self-reported: raynaud's phenomenon/disease	1	1
+91	Non-cancer illness code, self-reported: hypertrophic cardiomyopathy (hcm / hocm)	1	1
+92	Non-cancer illness code, self-reported: nephritis	1	1
+93	Non-cancer illness code, self-reported: bursitis	1	1
+94	Non-cancer illness code, self-reported: vitiligo	1	1
+95	Treatment/medication code: lisinopril	1	1
+96	Treatment/medication code: ramipril	1	1
+97	Treatment/medication code: nitrolingual 400micrograms spray	0.304761904761905	2
+97	Treatment/medication code: flecainide	0.695238095238095	2
+98	Treatment/medication code: isosorbide mononitrate	1	1
+99	Treatment/medication code: isosorbide dinitrate	1	1
+100	Treatment/medication code: ventolin 100micrograms inhaler	1	1
+101	Treatment/medication code: salmeterol	1	1
+102	Treatment/medication code: atrovent 20micrograms inhaler	1	1
+103	Treatment/medication code: aminophylline	1	1
+104	Treatment/medication code: becotide 50 inhaler	1	1
+105	Treatment/medication code: beclazone 50 inhaler	1	1
+106	Treatment/medication code: zopiclone	1	1
+107	Treatment/medication code: kapake tablet	1	1
+108	Treatment/medication code: mesalazine	1	1
+109	Treatment/medication code: aspirin	1	1
+110	Treatment/medication code: logynon tablet	1	1
+111	Treatment/medication code: vitamin b12 preparation	0.003651987110634	5
+111	Treatment/medication code: digoxin	0.052201933404941	5
+111	Medication for pain relief, constipation, heartburn: Aspirin	0.03609022556391	5
+111	Medication for pain relief, constipation, heartburn: Ibuprofen (e.g. Nurofen)	0.007733619763695	5
+111	Medication for pain relief, constipation, heartburn: Paracetamol	0.903114930182599	5
+112	Treatment/medication code: ibuprofen	1	1
+113	Treatment/medication code: morphine	1	1
+114	Treatment/medication code: migril tablet	1	1
+115	Treatment/medication code: nicotine product	1	1
+116	Treatment/medication code: tetralysal 300 capsule	1	1
+117	Treatment/medication code: carbimazole	1	1
+118	Treatment/medication code: allopurinol	1	1
+119	Treatment/medication code: beconase 50micrograms nasal spray	1	1
+120	Treatment/medication code: rhinocort 50micrograms nasal spray	1	1
+121	Treatment/medication code: aqueous cream bp	1	1
+122	Treatment/medication code: ranitidine	1	1
+123	Treatment/medication code: fluoxetine	1	1
+124	Treatment/medication code: bisoprolol	1	1
+125	Treatment/medication code: amlodipine	1	1
+126	Treatment/medication code: salbutamol	1	1
+127	Treatment/medication code: eumovate cream	0.009259259259259	5
+127	Started insulin within one year diagnosis of diabetes	0.947733918128655	5
+127	Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones: Insulin	0.514498050682261	5
+127	Medication for cholesterol, blood pressure or diabetes: Insulin	0.510233918128655	5
+127	Diagnoses - main ICD10: E10 Insulin-dependent diabetes mellitus	0.278630604288499	5
+128	Treatment/medication code: insulin product	1	1
+129	Treatment/medication code: codeine	1	1
+130	Treatment/medication code: metformin	1	1
+131	Treatment/medication code: warfarin	1	1
+132	Treatment/medication code: verapamil	1	1
+133	Treatment/medication code: fosinopril	1	1
+134	Treatment/medication code: nicorandil	1	1
+135	Treatment/medication code: flax oil tablet	1	1
+136	Treatment/medication code: venlafaxine	1	1
+137	Treatment/medication code: losartan	1	1
+138	Treatment/medication code: alendronate sodium	1	1
+139	Treatment/medication code: co-amilofruse	1	1
+140	Treatment/medication code: volsaid retard 75mg m/r tablet	1	1
+141	Treatment/medication code: antihistamine 60mg tablet	1	1
+142	Treatment/medication code: terbinafine	1	1
+143	Treatment/medication code: xalatan 0.005% eye drops	1	1
+144	Treatment/medication code: atorvastatin	1	1
+145	Treatment/medication code: candesartan cilexetil	1	1
+146	Treatment/medication code: salmeterol product	1	1
+147	Treatment/medication code: clopidogrel	1	1
+148	Treatment/medication code: indivina 1mg/2.5mg tablet	1	1
+149	Treatment/medication code: seretide 50 evohaler	1	1
+150	Treatment/medication code: rosiglitazone	1	1
+151	Treatment/medication code: fybogel orange s/f granules	1	1
+152	Treatment/medication code: arcoxia 90mg tablet	1	1
+153	Treatment/medication code: tiotropium	1	1
+154	Treatment/medication code: spiriva 18micrograms inhalation capsule	0.064814814814815	2
+154	Treatment/medication code: bendroflumethiazide	0.935185185185185	2
+155	Treatment/medication code: glucosamine product	1	1
+156	Treatment/medication code: levothyroxine sodium	1	1
+157	Treatment/medication code: ezetimibe	1	1
+158	Fluid intelligence score	0.999410377358491	2
+158	Prospective memory result	0.003537735849057	2
+159	Birth weight	0.766137295081967	2
+159	Birth weight of first child	0.335040983606557	2
+160	Mean time to correctly identify matches	1	1
+161	Suffer from 'nerves'	0.928057553956834	3
+161	Illnesses of father: None of the above (group 2)	0.003083247687564	3
+161	Illnesses of father: Chronic bronchitis/emphysema	0.068859198355601	3
+162	Illnesses of father: Heart disease	0.691901408450704	3
+162	Illnesses of father: None of the above (group 1)	0.205985915492958	3
+162	Illnesses of father: Prostate cancer	0.274647887323944	3
+163	Illnesses of father: Alzheimer's disease/dementia	1	1
+164	Illnesses of father: Lung cancer	1	1
+165	Illnesses of father: High blood pressure	1	1
+166	Illnesses of mother: Heart disease	0.328155339805825	3
+166	Illnesses of mother: None of the above (group 1)	0.081553398058253	3
+166	Illnesses of mother: High blood pressure	0.625242718446602	3
+167	Illnesses of mother: Alzheimer's disease/dementia	1	1
+168	Illnesses of mother: Breast cancer	1	1
+169	Illnesses of mother: Diabetes	1	1
+170	Illnesses of siblings: Heart disease	0.038809831824062	4
+170	Illnesses of siblings: None of the above (group 1)	0.018111254851229	4
+170	Illnesses of siblings: High blood pressure	0.238680465717982	4
+170	Illnesses of siblings: Diabetes	0.721862871927555	4
+171	Home area population density - urban or rural: Scotland - Large Urban Area	1	1
+172	Pack years of smoking PREVIEW ONLY	0.721824686940966	3
+172	Pack years adult smoking as proportion of life span exposed to smoking PREVIEW ONLY	0.862254025044723	3
+172	Number of cigarettes previously smoked daily	0.608228980322004	3
+173	Risk taking	1	1
+174	Pulse wave Arterial Stiffness index	0.350877192982456	3
+174	Pulse wave reflection index	0.631578947368421	3
+174	Pulse wave peak to peak time	0.052631578947369	3
+175	Wears glasses or contact lenses	1	1
+176	Doctor diagnosed idiopathic pulmonary fibrosis	1	1
+177	Other eye problems	0.164983164983165	4
+177	Eye problems/disorders: Diabetes related eye disease	0.794612794612795	4
+177	Eye problems/disorders: Cataract	0.029180695847363	4
+177	Diagnoses - main ICD10: H26 Other cataract	0.039281705948373	4
+178	Hearing difficulty/problems: Yes	0.689455388180765	3
+178	Hearing difficulty/problems with background noise	0.428736964078795	3
+178	Hearing aid user	0.039397450753187	3
+179	Cough on most days	0.111111111111111	2
+179	Bring up phlegm/sputum/mucus on most days	0.888888888888889	2
+180	Tobacco smoking: Occasionally	1	1
+181	Weight change compared with 1 year ago	1	1
+182	Relative age of first facial hair	0.987799834574028	2
+182	Relative age voice broke	0.557485525227461	2
+183	Hair/balding pattern: Pattern 2	0.124576568157925	3
+183	Hair/balding pattern: Pattern 3	0.26159327181404	3
+183	Hair/balding pattern: Pattern 4	0.907837869407779	3
+184	Number of children fathered	1	1
+185	Fractured/broken bones in last 5 years	1	3
+185	Fractured bone site(s): Ankle	0.131756756756757	3
+185	Fractured bone site(s): Other bones	0.108108108108108	3
+186	Reason for reducing amount of alcohol drunk: Health precaution	1	1
+187	Years since last cervical smear test	1	1
+188	Age when periods started (menarche)	1	1
+189	Number of live births	1	1
+190	Bilateral oophorectomy (both ovaries removed)	1	1
+191	Creatinine (enzymatic) in urine	0.211904761904762	3
+191	Potassium in urine	0.411904761904762	3
+191	Sodium in urine	0.407619047619048	3
+192	Pace-maker	1	1
+193	Used an inhaler for chest within last hour	1	1
+194	Number of cigarettes currently smoked daily (current cigarette smokers)	0.940845070422535	3
+194	Time from waking to first cigarette	0.546478873239437	3
+194	Difficulty not smoking for 1 day	0.749295774647887	3
+195	Mother's age at death	1	1
+196	Frequency of other exercises in last 4 weeks	1	1
+197	Length of menstrual cycle	1	1
+198	Knee pain for 3+ months	1	1
+199	Headaches for 3+ months	1	1
+200	Number of incorrect matches in round	1	1
+201	Underlying (primary) cause of death: ICD10: C45.9 Mesothelioma, unspecified	1	1
+202	Underlying (primary) cause of death: ICD10: E85.4 Organ-limited amyloidosis	1	1
+203	Underlying (primary) cause of death: ICD10: I62.9 Intracranial haemorrhage (nontraumatic), unspecified	1	1
+204	Underlying (primary) cause of death: ICD10: J84.1 Other interstitial pulmonary diseases with fibrosis	1	1
+205	Underlying (primary) cause of death: ICD10: J98.8 Other specified respiratory disorders	1	1
+206	Underlying (primary) cause of death: ICD10: K70.1 Alcoholic hepatitis	1	1
+207	Diastolic blood pressure, automated reading	0.719295069104955	2
+207	Systolic blood pressure, automated reading	0.501478664976764	2
+208	Heel bone mineral density (BMD) T-score, automated (left)	0.425124134223094	3
+208	Heel bone mineral density (BMD) T-score, automated (right)	0.427021727442361	3
+208	Heel bone mineral density (BMD) T-score, automated	0.964483380246055	3
+209	Average monthly fortified wine intake	1	1
+210	Hand grip strength (left)	1	1
+211	Average weekly intake of other alcoholic drinks	1	1
+212	Which eye(s) affected by astigmatism: Right eye	1	1
+213	Qualifications: CSEs or equivalent	1	1
+214	Qualifications: NVQ or HND or HNC or equivalent	1	1
+215	Reason for glasses/contact lenses: For short-sightedness, i.e. only or mainly for distance viewing such as driving, cinema etc (called 'myopia')	1	1
+216	Reason for glasses/contact lenses: For long-sightedness, i.e. for distance and near, but particularly for near tasks like reading (called 'hypermetropia')	1	1
+217	Reason for glasses/contact lenses: For just reading/near work as you are getting older (called 'presbyopia')	1	1
+218	Eye problems/disorders: Injury or trauma resulting in loss of vision	1	1
+219	Mouth/teeth dental problems: Mouth ulcers	0.715328467153285	3
+219	Mouth/teeth dental problems: Bleeding gums	0.001955161626694	3
+219	Mouth/teeth dental problems: Dentures	0.284280500521376	3
+220	Mouth/teeth dental problems: None of the above	1	1
+221	Fractured bone site(s): Wrist	0.779527559055118	2
+221	Diagnoses - main ICD10: S52 Fracture of forearm	0.582677165354331	2
+222	Fractured bone site(s): Arm	1	1
+223	Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones: Hormone replacement therapy	1	1
+224	Medication for pain relief, constipation, heartburn: Omeprazole (e.g. Zanprol)	1	1
+225	Vitamin and mineral supplements: None of the above	0.828282828282828	3
+225	Vitamin and mineral supplements: Vitamin C	0.005050505050505	3
+225	Mineral and other dietary supplements: Fish oil (including cod liver oil)	0.166666666666667	3
+226	Manic/hyper symptoms: All of the above	1	1
+227	Why reduced smoking: Illness or ill health	1	1
+228	Pain type(s) experienced in last month: Headache	0.888858842617631	4
+228	Pain type(s) experienced in last month: Neck or shoulder pain	0.002433747971877	4
+228	Pain type(s) experienced in last month: Back pain	0.0440778799351	4
+228	Pain type(s) experienced in last month: Knee pain	0.064629529475392	4
+229	Pain type(s) experienced in last month: Facial pain	1	1
+230	Pain type(s) experienced in last month: Pain all over the body	1	1
+231	Types of transport used (excluding work): Car/motor vehicle	1	1
+232	Types of transport used (excluding work): Walk	0.476190476190476	3
+232	Types of physical activity in last 4 weeks: Walking for pleasure (not as a means of transport)	0.523809523809524	3
+232	Types of physical activity in last 4 weeks: None of the above	0.095238095238095	3
+233	Types of transport used (excluding work): Cycle	0.140740740740741	3
+233	Types of physical activity in last 4 weeks: Other exercises (eg: swimming, cycling, keep fit, bowling)	0.844444444444444	3
+233	Types of physical activity in last 4 weeks: Strenuous sports	0.014814814814815	3
+234	Types of physical activity in last 4 weeks: Light DIY (eg: pruning, watering the lawn)	0.917682926829268	2
+234	Types of physical activity in last 4 weeks: Heavy DIY (eg: weeding, lawn mowing, carpentry, digging)	0.082317073170732	2
+235	Job involves mainly walking or standing	0.736600306278714	3
+235	Job involves heavy manual or physical work	0.989280245022971	3
+235	Job involves shift work	0.01531393568147	3
+236	Number of days/week walked 10+ minutes	0.226190476190476	5
+236	Duration of walks	0.119047619047619	5
+236	Number of days/week of moderate physical activity 10+ minutes	0.075396825396825	5
+236	Number of days/week of vigorous physical activity 10+ minutes	0.571428571428571	5
+236	Frequency of walking for pleasure in last 4 weeks	0.007936507936508	5
+237	Duration of vigorous activity	1	1
+238	Frequency of stair climbing in last 4 weeks	1	1
+239	Duration walking for pleasure	1	1
+240	Diagnoses - main ICD10: B37 Candidiasis	1	1
+241	Diagnoses - main ICD10: C09 Malignant neoplasm of tonsil	1	1
+242	Diagnoses - main ICD10: C18 Malignant neoplasm of colon	1	1
+243	Diagnoses - main ICD10: C22 Malignant neoplasm of liver and intrahepatic bile ducts	1	1
+244	Diagnoses - main ICD10: C67 Malignant neoplasm of bladder	1	1
+245	Diagnoses - main ICD10: D12 Benign neoplasm of colon, rectum, anus and anal canal	1	1
+246	Diagnoses - main ICD10: D22 Melanocytic naevi	1	1
+247	Diagnoses - main ICD10: D25 Leiomyoma of uterus	1	1
+248	Diagnoses - main ICD10: E03 Other hypothyroidism	1	1
+249	Diagnoses - main ICD10: E04 Other non-toxic goitre	1	1
+250	Diagnoses - main ICD10: F43 Reaction to severe stress, and adjustment disorders	1	1
+251	Diagnoses - main ICD10: G56 Mononeuropathies of upper limb	1	1
+252	Diagnoses - main ICD10: H25 Senile cataract	1	1
+253	Diagnoses - main ICD10: H71 Cholesteatoma of middle ear	1	1
+254	Diagnoses - main ICD10: I10 Essential (primary) hypertension	1	1
+255	Diagnoses - main ICD10: I30 Acute pericarditis	1	1
+256	Diagnoses - main ICD10: I70 Atherosclerosis	1	1
+257	Diagnoses - main ICD10: I83 Varicose veins of lower extremities	1	1
+258	Diagnoses - main ICD10: I84 Haemorrhoids	1	1
+259	Diagnoses - main ICD10: J03 Acute tonsillitis	1	1
+260	Diagnoses - main ICD10: J22 Unspecified acute lower respiratory infection	1	1
+261	Diagnoses - main ICD10: J34 Other disorders of nose and nasal sinuses	1	1
+262	Diagnoses - main ICD10: J47 Bronchiectasis	1	1
+263	Diagnoses - main ICD10: J86 Pyothorax	1	1
+264	Diagnoses - main ICD10: K09 Cysts of oral region, not elsewhere classified	1	1
+265	Diagnoses - main ICD10: K14 Diseases of tongue	1	1
+266	Diagnoses - main ICD10: K20 Oesophagitis	1	1
+267	Diagnoses - main ICD10: K30 Dyspepsia	1	1
+268	Diagnoses - main ICD10: K35 Acute appendicitis	1	1
+269	Diagnoses - main ICD10: K40 Inguinal hernia	1	1
+270	Diagnoses - main ICD10: K43 Ventral hernia	1	1
+271	Diagnoses - main ICD10: K60 Fissure and fistula of anal and rectal regions	1	1
+272	Diagnoses - main ICD10: K76 Other diseases of liver	1	1
+273	Diagnoses - main ICD10: L03 Cellulitis	1	1
+274	Diagnoses - main ICD10: M10 Gout	1	1
+275	Diagnoses - main ICD10: M15 Polyarthrosis	1	1
+276	Diagnoses - main ICD10: M16 Coxarthrosis [arthrosis of hip]	1	1
+277	Diagnoses - main ICD10: M21 Other acquired deformities of limbs	1	1
+278	Diagnoses - main ICD10: M23 Internal derangement of knee	1	1
+279	Diagnoses - main ICD10: M24 Other specific joint derangements	1	1
+280	Diagnoses - main ICD10: M53 Other dorsopathies, not elsewhere classified	1	1
+281	Diagnoses - main ICD10: M54 Dorsalgia	1	1
+282	Diagnoses - main ICD10: M67 Other disorders of synovium and tendon	1	1
+283	Diagnoses - main ICD10: M70 Soft tissue disorders related to use, overuse and pressure	1	1
+284	Diagnoses - main ICD10: M72 Fibroblastic disorders	1	1
+285	Diagnoses - main ICD10: N19 Unspecified renal failure	1	1
+286	Diagnoses - main ICD10: N32 Other disorders of bladder	1	1
+287	Diagnoses - main ICD10: N60 Benign mammary dysplasia	1	1
+288	Diagnoses - main ICD10: N64 Other disorders of breast	1	1
+289	Diagnoses - main ICD10: N80 Endometriosis	1	1
+290	Diagnoses - main ICD10: O75 Other complications of labour and delivery, not elsewhere classified	1	1
+291	Diagnoses - main ICD10: R04 Haemorrhage from respiratory passages	1	1
+292	Diagnoses - main ICD10: R11 Nausea and vomiting	1	1
+293	Diagnoses - main ICD10: R14 Flatulence and related conditions	1	1
+294	Diagnoses - main ICD10: R17 Unspecified jaundice	1	1
+295	Diagnoses - main ICD10: R31 Unspecified haematuria	1	1
+296	Diagnoses - main ICD10: R35 Polyuria	1	1
+297	Diagnoses - main ICD10: R50 Fever of unknown origin	1	1
+298	Diagnoses - main ICD10: R55 Syncope and collapse	1	1
+299	Diagnoses - main ICD10: R68 Other general symptoms and signs	1	1
+300	Diagnoses - main ICD10: S09 Other and unspecified injuries of head	1	1
+301	Diagnoses - main ICD10: S66 Injury of muscle and tendon at wrist and hand level	1	1
+302	Diagnoses - main ICD10: S76 Injury of muscle and tendon at hip and thigh level	1	1
+303	Diagnoses - main ICD10: S86 Injury of muscle and tendon at lower leg level	1	1
+304	Diagnoses - main ICD10: T18 Foreign body in alimentary tract	1	1
+305	Diagnoses - main ICD10: T84 Complications of internal orthopaedic prosthetic devices, implants and grafts	1	1
+306	Diagnoses - main ICD10: Z35 Supervision of high-risk pregnancy	1	1
+307	Diagnoses - main ICD10: Z47 Other orthopaedic follow-up care	1	1
+308	Diagnoses - main ICD10: Z80 Family history of malignant neoplasm	1	1
