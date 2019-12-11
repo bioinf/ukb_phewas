@@ -158,7 +158,6 @@ def get_check(path, HLA, SNP_names_list,clumpig_universe):
                                 quiery[row[2]].append(snp)  
                                 qverse[row[2]][1].append(snp)
                 except:
-                      print('Bugged')
                       pass                               
 
     for index in qverse.keys():
@@ -561,13 +560,13 @@ if __name__ == '__main__':
         annotate_vcf(af.split('/')[-1].split('.')[0]+".vcf", sn, g)
 #        print(input_dict)
         make_clumps(input_dict,af,pld,bf)
-        with open(af.split('.')[0]+"_annotated.vcf",'r', newline='') as csvfile:
+        with open(af.split('/')[-1].split('.')[0]+"_annotated.vcf",'r', newline='') as csvfile:
             my_reader = csv.reader(csvfile, delimiter='\t')
             for row in my_reader:
                 if "#" not in row[0]:
                     SNP_names_list[row[2]] = "_".join([row[0]]+[row[1]]+[row[3]]+[row[4]])+'_b37'
 
-        with open(af.split('.')[0]+"_annotated.vcf",'r', newline='') as csvfile:
+        with open(af.split('/')[-1].split('.')[0]+"_annotated.vcf",'r', newline='') as csvfile:
             my_reader = csv.reader(csvfile, delimiter='\t')
             for row in my_reader:
                 if "#" not in row[0]: 
