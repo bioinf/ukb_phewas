@@ -35,7 +35,7 @@ To install this tool clone this repository to your PC.
 ~$ git clone https://github.com/bioinf/ukb_phewas
 ```
 
-## Running and using tool
+## Running the tool
 
 Firstly, you need to prepare tsv-file from GWAS summary statistics with the following structure: <br> 
 <table>
@@ -58,8 +58,6 @@ Firstly, you need to prepare tsv-file from GWAS summary statistics with the foll
 </table>
 
 To launch this tool you will also need to specify path to PLINK and SnpEff directories.
-
-## Example usage
 ```
 ~$ python3 LSEA.py -af <input tsv-file> -sn <path to SNPeff> -pld <path to plink> -bf <bfile for plink> -p
 ```
