@@ -25,12 +25,14 @@ LSEA could be applied for gene set enrichment analysis for data obtained from GW
   </li>
 </ul>
 
+**Note: LSEA results might be affected by difference in PLINK versions and reference bfile used for clumping. LSEA was tested using PLINK v. 1.9 and 1000 Genomes European reference panel.**
+
 ### Installing
 
 To install this tool clone this repository to your PC.
 
 ```
-~$ git clone https://github.com/LSEA
+~$ git clone https://github.com/bioinf/ukb_phewas
 ```
 
 ## Running and using tool
