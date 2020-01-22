@@ -1,8 +1,8 @@
 # Phenome-wide search for pleiotropic loci
 
-This epository contains all software, scripts and data which are described in the paper:
+This repository contains all software, scripts and data related to the paper:
 
-Anton E. Shikov, Alexander V. Predeus, Yury A. Barbitoff. Phenome-wide search for pleiotropic loci highlights key genes and molecular pathways for human complex traits. *bioRxiv*
+Shikov AE, Skitchenko RK, Predeus AV, and Barbitoff YA. (2020) Phenome-wide functional dissection of pleiotropic effects highlights key molecular pathways for human complex traits. *Sci Rep* www.nature.com/articles/s41598-020-58040-4
 
 `LSEA` - source code for the Locus Set Enrichment Analysis method
 
