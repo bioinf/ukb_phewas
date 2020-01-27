@@ -83,7 +83,7 @@ By default, LSEA creates all files in the current working directory. The main re
 The first column contains the name of the set, the second and the third represent p-value and corrected (FDR-adjusted) q-value of hypergeometric test, the last coloumn includes information about total number of independant loci, number of loci in query, number of loci in gene set, number of loci common for query and gene set and the list of enriched genes.<br> 
 Note that the genes list could be larger than the number of common loci, because only indepedant loci are considered during analysis. <br>
 
-By default, LSEA outputs all gene sets that have FDR q-value < 0.1 to increase sensitivity for low-power GWAS. We recommend filtering out gene sets with FDR q-value < 0.01 if the GWAS signal is sufficiently strong.<br>
+By default, LSEA outputs all gene sets that have FDR q-value < 0.1 to increase sensitivity for low-power GWAS. We recommend filtering out gene sets with FDR q-value < 0.001 (or even more strict cutoffs) if the GWAS signal is sufficiently strong.<br>
 
 **Note: SNPs from the HLA locus are excluded from the analisys due to high ambiguity of LD-scores within the HLA region**
 
