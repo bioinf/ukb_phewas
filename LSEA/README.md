@@ -3,7 +3,7 @@ LSEA (Locus Set Enrichment Analysis) is an LD-aware tool to perform binary gene 
 
 Citation: Shikov AE, Skitchenko RK, Predeus AV, and Barbitoff YA. (2020) Phenome-wide functional dissection of pleiotropic effects highlights key molecular pathways for human complex traits. *Sci Rep* www.nature.com/articles/s41598-020-58040-4
 
-**Important notice: This version of the tool has not yet been extensively benchmaked. We are currently developing a more flexible and stable version of LSEA that should also become available as a web-interface. We are planning to release the new version on Mar 1, 2020.**
+**Important notice: This version of the tool has not yet been extensively benchmaked. We are currently developing a more flexible and stable version of LSEA that should also become available as a web-interface. We are planning to release the new version on Apr 1, 2020.**
 
 ## Getting Started
 
