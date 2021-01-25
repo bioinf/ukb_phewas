@@ -435,6 +435,8 @@ def annotate_vcf(file_name, snpeff, genome):
     snp_cmd = subprocess.call('java -Xmx4g -jar {0} -v {1} {2} > {3} 2> {4}'.format(snpeff+'/snpEff.jar',genome,os.getcwd() + "/"+file_name,os.getcwd()+"/"+file_name.split('.')[0]+"_annotated.vcf", 'snpeff.log'),shell=True)
 
 if __name__ == '__main__':
+    print('This version of the tools is outdated. Please visit https://github.com/mrbarbitoff/LSEA/')
+    sys.exit()
     parser = argparse.ArgumentParser(description='LSEA')
     parser.add_argument('-af', help='Input file in tsv-format', metavar='File',
                         type=str, required=True)
